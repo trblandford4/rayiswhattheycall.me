@@ -1,0 +1,144 @@
+/* CUSTOM STYLES */
+
+
+/* Nav Bar */
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+
+/* Body */
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("https://source.unsplash.com/1920x1280/?coffee")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#card-resize {
+    max-height: 288px;
+    width: auto;
+}
+
+.flex-center {
+    color: #fff;
+}
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+
+/* code for animated blinking cursor */
+
+.typed-cursor {
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
