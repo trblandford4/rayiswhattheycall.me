@@ -57,7 +57,20 @@ main {
 }
 
 #card-resize {
-    width: auto;
+    max-height: 300px;
+    width: 100%;
+}
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 #carousel-resize {
