@@ -66,26 +66,25 @@
                 <!--Navbar icons-->
                 <ul class="nav navbar-nav nav-flex-icons">
                     <li class="nav-item">
-                        <a href="www.facebook.com/ray.blandford" class="nav-link"><i class="fa fa-facebook"></i></a>
+                        <a id="fb-link" class="nav-link"><i class="fa fa-facebook"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/rayblandford" class="nav-link"><i class="fa fa-linkedin"></i></a>
+                        <a id="in-link" class="nav-link"><i class="fa fa-linkedin"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.instagram.com/__raybanz/" class="nav-link"><i class="fa fa-instagram"></i></a>
+                        <a id="ig-link" class="nav-link"><i class="fa fa-instagram"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://github.com/trblandford4" class="nav-link"><i class="fa fa-github"></i></a>
+                        <a id="git-link" class="nav-link"><i class="fa fa-github"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="mailto:trbland4@vt.edu" class="nav-link"><i class="fa fa-envelope"></i></a>
+                        <a id="mail-link" class="nav-link"><i class="fa fa-envelope"></i></a>
                     </li>
                 </ul>
-                <!--/.Collapse content-->
-
-
 
             </div>
+            <!--/.Collapse content-->
+
         </div>
 
     </nav>
@@ -377,8 +376,8 @@
                 <div class="carousel-caption">
                     <p>I'm available for summer internships, and I love to meet new people so please say hello!</p>
                     <a href="https://github.com/trblandford4/rayiswhattheycall.me/raw/master/pdf/resume.pdf" class="btn btn-primary blue lighten-2">
-                            <i class="fa fa-download"></i> Check out my resume
-                        </a>
+                        <i class="fa fa-download"></i> Check out my resume
+                    </a>
                 </div>
                 <!--Caption-->
 
@@ -403,9 +402,9 @@
                 <!--Caption-->
                 <div class="carousel-caption">
                     <p>I'm available for summer internships, and I love to meet new people so please say hello!</p>
-                    <a href="https://github.com/trblandford4" class="btn btn-primary blue lighten-2">
-                            <i class="fa fa-download"></i> Check out my resume
-                        </a>
+                    <a href="https://github.com/trblandford4/rayiswhattheycall.me/raw/master/pdf/resume.pdf" class="btn btn-primary blue lighten-2">
+                        <i class="fa fa-download"></i> Check out my resume
+                    </a>
                 </div>
                 <!--Caption-->
             </div>
@@ -422,14 +421,14 @@
                 <!--Caption-->
                 <div class="carousel-caption">
                     <p>I'm available for summer internships, and I love to meet new people so please say hello!</p>
-                    <a href="https://github.com/trblandford4" class="btn btn-primary blue lighten-2">
-                            <i class="fa fa-download"></i> Check out my resume
-                        </a>
+                    <a href="https://github.com/trblandford4/rayiswhattheycall.me/raw/master/pdf/resume.pdf" class="btn btn-primary blue lighten-2">
+                        <i class="fa fa-download"></i> Check out my resume
+                    </a>
                 </div>
                 <!--Caption-->
             </div>
             <!--/Third slide-->
-            
+
             <!--Fourth slide-->
             <div class="carousel-item">
                 <!--Mask color-->
@@ -441,9 +440,9 @@
                 <!--Caption-->
                 <div class="carousel-caption">
                     <p>I'm available for summer internships, and I love to meet new people so please say hello!</p>
-                    <a href="https://github.com/trblandford4" class="btn btn-primary blue lighten-2">
-                            <i class="fa fa-download"></i> Check out my resume
-                        </a>
+                    <a href="https://github.com/trblandford4/rayiswhattheycall.me/raw/master/pdf/resume.pdf" class="btn btn-primary blue lighten-2">
+                        <i class="fa fa-download"></i> Check out my resume
+                    </a>
                 </div>
                 <!--Caption-->
             </div>
@@ -516,6 +515,25 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!-- Navbar link bug-fix -->
+    <script>
+        document.getElementById("fb-link").onclick = function () {
+            location.href = "https://www.facebook.com/ray.blandford";
+        };
+        document.getElementById("in-link").onclick = function () {
+            location.href = "https://www.linkedin.com/in/rayblandford";
+        };
+        document.getElementById("ig-link").onclick = function () {
+            location.href = "https://www.instagram.com/__raybanz/";
+        };
+        document.getElementById("git-link").onclick = function () {
+            location.href = "https://github.com/trblandford4";
+        };
+        document.getElementById("mail-link").onclick = function () {
+            location.href = "mailto:trbland4@vt.edu";
+        };
+    </script>
 
     <!-- Scrolling Links -->
     <script>
