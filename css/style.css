@@ -18,12 +18,12 @@
 }
 
 .top-nav-collapse {
-    background-color: #1C2331;
+    background-color: #212121;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #1C2331;
+        background-color: #212121;
     }
 }
 
@@ -44,7 +44,7 @@ body,
 }
 
 .view {
-    background: url("https://source.unsplash.com/1920x1280/?coffee")no-repeat center center fixed;
+    background: url("https://source.unsplash.com/1920x1600/?black%20and%20white%20nature")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,8 +57,14 @@ main {
 }
 
 #card-resize {
-    max-height: 288px;
     width: auto;
+}
+
+#carousel-resize {
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
 }
 
 .flex-center {
@@ -68,6 +74,73 @@ main {
 #contact .fa {
     font-size: 2.5rem;
     margin-left: 1rem;
+    color: #64b5f6;
+}
+
+#form .fa {
+    font-size: 2rem;
+    color: #64b5f6;
+}
+
+#section-1 {
+    z-index: 1;
+    color: #fff;
+    height: 100vh;
+}
+
+
+/* List Group */
+
+.philosophy div {
+    width: 500px;
+    margin: 10px
+}
+
+.philosophy ol {
+    color: #ccc;
+    list-style-type: none;
+}
+
+.philosophy ol li {
+    position: relative;
+    font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.philosophy li p {
+    font: 12px/1.5 Helvetica, sans-serif;
+    padding-left: 60px;
+    color: #555;
+}
+
+.philosophy span {
+    position: absolute;
+}
+
+.philosophy 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 div {
+    width: 500px;
+    margin: 10px
+}
+
+.philosophy ol {
+    color: #ccc;
+    list-style-type: none;
+}
+
+.philosophy ol li {
+    position: relative;
+    font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.philosophy li p {
+    font: 12px/1.5 Helvetica, sans-serif;
+    padding-left: 60px;
+    color: #555;
+}
+
+.philosophy span {
+    position: absolute;
 }
 
 
